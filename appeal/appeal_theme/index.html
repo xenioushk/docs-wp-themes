@@ -1,0 +1,1349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Appeal - Fully Functional Petition Theme Documentation</title>
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Appeal - Fully Functional Petition Theme Documentation" />
+    <meta name="author" content="Md Mahbub Alam Khan" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body class="body-green">
+    <div class="page-wrapper">
+        <!-- ******Header****** -->
+        <header id="header" class="header">
+            <div class="container">
+                <div class="branding">
+                    <h1 class="logo text-center">
+                        <a href="index.html">
+                            <span class="text-bold">
+                  Appeal - Fully Functional<br />
+                  Petition WordPress Theme Documentation
+                </span>
+                        </a>
+                    </h1>
+                </div>
+                <!--//branding-->
+            </div>
+            <!--//container-->
+        </header>
+        <!--//header-->
+
+        <div class="doc-wrapper">
+            <div class="container">
+                <div class="doc-body row">
+                    <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
+                        <div id="doc-nav" class="doc-nav">
+                            <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+                                <a class="nav-link scrollto sub-menu-sign" href="#theme-overview-section">Theme Overview & Installation</a>
+                                <nav class="doc-sub-menu nav flex-column">
+                                    <a class="nav-link scrollto" href="#requirements">Requirements</a>
+                                    <a class="nav-link scrollto" href="#installation_steps">Installation Steps</a>
+                                    <a class="nav-link scrollto" href="#import_demo_data">Import Demo Data</a>
+                                </nav>
+                                <!--//nav-->
+
+                                <a class="nav-link scrollto sub-menu-sign" href="#theme_option_panel_section">Theme Options Panel</a>
+                                <nav class="doc-sub-menu nav flex-column">
+                                    <a class="nav-link scrollto" href="#setup_favicon">Setup Favicon</a>
+                                    <a class="nav-link child-nav-link scrollto" href="#customize_pre_load_screen">Customize Pre Load Screen</a>
+                                    <a class="nav-link child-nav-link scrollto" href="#customize_back_to_top_button">Customize Back To Top Button</a>
+                                    <a class="nav-link scrollto" href="#setup_site_logo">Setup Site Logo</a>
+                                    <a class="nav-link scrollto" href="#tool_bar_customization">Tool Bar Customization</a>
+                                    <a class="nav-link scrollto" href="#customize_menu_color">Customize Menu Color</a>
+                                    <a class="nav-link scrollto" href="#add_copyright_text">Footer & Copyright Text</a>
+                                    <a class="nav-link scrollto" href="#typography_background_heading_widget_styles">Typography & Widget styles</a>
+                                    <a class="nav-link scrollto" href="#default_header_styling">Default Header Styling</a>
+                                    <a class="nav-link scrollto" href="#bottom_widget_area_styling">Footer/Bottom Widget Styling</a>
+                                </nav>
+                                <!--//nav-->
+
+                                <a class="nav-link scrollto" href="#petition_manager_plugin">Petition Manager Plugin</a>
+                                <a class="nav-link scrollto" href="#bwl_news_manager_plugin">BWL News Manager Plugin</a>
+
+                                <a class="nav-link scrollto sub-menu-sign" href="#setup_page_content_section">Setup Page Content</a>
+                                <nav class="doc-sub-menu nav flex-column">
+                                    <a class="nav-link scrollto" href="#home_page">Petition Home Page</a>
+                                    <a class="nav-link scrollto" href="#about_us_page">About Us Page</a>
+                                    <a class="nav-link scrollto" href="#contact_page">Contact Page</a>
+                                    <a class="nav-link scrollto" href="#blog_page">Blog Page</a>
+                                    <a class="nav-link scrollto" href="#woocommerce_store_page">WooCommerce Store</a>
+                                </nav>
+                                <!--//nav-->
+
+                                <a class="nav-link scrollto sub-menu-sign" href="#menu_setup_section">Menu Setup</a>
+                                <nav class="doc-sub-menu nav flex-column">
+                                    <a class="nav-link scrollto" href="#primary_menu">Primary/Main Menu</a>
+                                    <a class="nav-link scrollto" href="#footer_menu">Footer Menu</a>
+                                    <a class="nav-link scrollto" href="#one_page_menu">One Page Menu</a>
+                                </nav>
+                                <!--//nav-->
+
+                                <a class="nav-link scrollto sub-menu-sign" href="#widget_settings_section">Widget Settings</a>
+                                <nav class="doc-sub-menu nav flex-column">
+                                    <a class="nav-link scrollto" href="#blog_widget_area">Blog Widget Area</a>
+                                    <a class="nav-link scrollto d-none" href="#footer_widget_area">Footer Widget Area</a>
+                                </nav>
+                                <!--//nav-->
+
+                                <a class="nav-link scrollto" href="#theme_translation">Theme Translation</a>
+
+                                <a class="nav-link scrollto sub-menu-sign" href="#support_miscellaneous_section">Support & Miscellaneous</a>
+
+                                <nav class="doc-sub-menu nav flex-column">
+                                    <a class="nav-link scrollto" href="#faq_trouble_shoot">Troubleshooting</a>
+                                    <a class="nav-link scrollto" href="#upgrade_notes">Upgrade Notes</a>
+                                    <a class="nav-link scrollto" href="#change_log">Change Log</a>
+                                    <a class="nav-link scrollto" href="#source_credit">Source & Credit</a>
+                                </nav>
+
+                                <small><i>Doc Last Update:</i> 31/12/2021</small>
+                            </nav>
+                            <!--//doc-menu-->
+                        </div>
+                    </div>
+                    <!--//doc-sidebar-->
+
+                    <div class="doc-content col-md-9 col-12 order-1">
+                        <div class="content-inner">
+                            <section id="theme-overview-section" class="doc-section">
+                                <h2 class="section-title">Theme's General Information</h2>
+                                <div class="section-block">
+                                    <ul>
+                                        <li><strong>Theme Version:</strong> 20211231-1.1.8</li>
+                                        <li><strong>Theme Last Update:</strong> 31/12/2021</li>
+                                        <li><strong>Theme Create Date:</strong> 26/08/2016</li>
+                                        <li><strong>Theme Created By:</strong> <a href="https://themeforest.net/user/xenioushk" target="_blank">MD MAHBUB ALAM KHAN</a> & <a href="https://themeforest.net/user/essentialwebapps" target="_blank">AFM JAMAL UDDIN</a></li>
+                                        <li><strong>Petition Plugin Author: </strong><a href="https://themeforest.net/user/xenioushk#contact" target="_blank">Md Mahbub Alam Khan</a></li>
+                                        <li><strong>Get Premium Support:</strong> <a href="https://themeforest.net/item/appeal-fully-functional-petition-theme/16149266/support/contact">Send Me A Message</a></li>
+                                    </ul>
+                                    <p>
+                                        First of all, thanks a lot for purchasing our theme. We hope you will like the WordPress theme, and it would be great if you can spare a minute to rate it. Finally, If you need any support regarding our theme, please feel free to contact us via our profile
+                                        page
+                                        <a href="https://themeforest.net/user/essentialwebapps#contact" target="_blank">http://themeforest.net/user/essentialwebapps#contact</a>
+                                    </p>
+                                </div>
+                            </section>
+                            <!--//doc-section-->
+
+                            <!--  Installation Section -->
+
+                            <section id="installation-section" class="doc-section">
+                                <div id="requirements" class="section-block">
+                                    <h3 class="block-title">Installation Requirements</h3>
+                                    <p>You need at least WordPress version 4.9+ installed for this theme to work properly. It is strongly recommended that you always use the latest stable version of WordPress to ensure all known bugs and security issues
+                                        are fixed. Other requirements:</p>
+                                    <ul>
+                                        <li>PHP version 5.3 or greater.</li>
+                                        <li>MySQL version 5.0.15 or greater.</li>
+                                    </ul>
+                                </div>
+                                <!--//section-block-->
+
+                                <div id="installation_steps" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">Installation Steps</h3>
+                                            <p>To install a theme, you must first upload the theme files and then activate the theme. The theme files can be uploaded in two ways:</p>
+                                            <ul>
+                                                <li><strong>FTP Upload:</strong> Using your FTP client, upload the non-zipped theme folder into the /wp-content/themes/ folder on your server.</li>
+                                                <li><strong>WordPress Upload:</strong> Navigate to Appearance >> Themes >> Add New >> Upload. Go to browse, and select the zipped theme folder. Hit "Install Now" and the theme will be uploaded and installed.</li>
+                                            </ul>
+
+                                            <p><strong class="steps">Step 01:</strong> Go to WP admin dashboard and click on <em>Appearence >> Themes >> Add New</em>.</p>
+
+                                            <div class="doc-img-box text-left">
+                                                <a href="img/installation/1.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/installation/1.jpg" alt="screenshot" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 02:</strong> Click on <em> Upload Theme</em>.</p>
+
+                                            <div class="doc-img-box text-left">
+                                                <a href="img/installation/2.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/installation/2.jpg" alt="screenshot" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 03:</strong> Browse the file <em> appeal.zip </em> which you'll have from the download and click on <em> Install Now </em>.</p>
+
+                                            <div class="doc-img-box text-left">
+                                                <a href="img/installation/3.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/installation/3.jpg" alt="screenshot" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 04:</strong> <em>Activate </em> the theme.</p>
+
+                                            <div class="doc-img-box text-left">
+                                                <a href="img/installation/4.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/installation/4.jpg" alt="screenshot" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 05:</strong> Click on <em>Begin Installing Plugins</em> link.</p>
+
+                                            <div class="doc-img-box text-left">
+                                                <a href="img/installation/5.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/installation/5.jpg" alt="screenshot" />
+                                                </a>
+                                            </div>
+                                            <ul class="square-list">
+                                                <li>One Click Demo Import. (Required)</li>
+                                                <li>WPBakery Page Builder. (Required)</li>
+                                                <li>Codeecstasy Theme WPBakery Page Builder Helper. (Required).</li>
+                                                <li>Petitions Manager. (Required)</li>
+                                                <li>Redux Framework. (Required)</li>
+                                                <li>Contact Form 7.(Required)</li>
+                                                <li>Mailchimp For Wp. (Required)</li>
+                                                <li>BWL News Manager,. (Required)</li>
+                                                <li>Shortcodes Ultimate. (Required)</li>
+
+                                                <li>Woocommerce. (Optional, If you want to run a shop install and activate it).</li>
+                                                <li>Widget Importer & Exporter. (Required, but you can deactivate it after import demo data).</li>
+                                                <li>WordPress Importer. (Required, but you can deactivate it after import demo data).</li>
+                                            </ul>
+
+                                            <p><strong class="steps">N.B: </strong>All plugins must be installed and activated if you want your site to look exactly like demo.</p>
+
+                                            <p><strong class="steps">Step 06:</strong> Select the plugins to <em> Install and click Apply</em>.</p>
+
+                                            <div class="doc-img-box text-left">
+                                                <a href="img/installation/6.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/installation/6.jpg" alt="screenshot" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 07:</strong> After install the plugin click on <em> Return to Required Plugins Installer</em>.</p>
+
+                                            <div class="doc-img-box text-left">
+                                                <a href="img/installation/7.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/installation/7.jpg" alt="screenshot" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 08:</strong> Select the plugin to <em> Activate and click Apply</em>.</p>
+
+                                            <div class="doc-img-box text-left">
+                                                <a href="img/installation/8.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/installation/8.jpg" alt="screenshot" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 09:</strong> After active the plugin click on <em> Return to the Dashboard</em>.</p>
+
+                                            <div class="doc-img-box text-left">
+                                                <a href="img/installation/9.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/installation/9.jpg" alt="screenshot" />
+                                                </a>
+                                            </div>
+
+                                            <h4 class="block-title">Child Theme Installation:</h4>
+                                            <p>The Installation process of a child theme is similar to the main theme. Please note that, A Child theme is for developers who willing to make changes to core functions and code. You will get all the necessary
+                                                files for the child theme inside the theme package.</p>
+
+                                            <div class="callout-block callout-warning">
+                                                <div class="icon-holder">
+                                                    <i class="fas fa-exclamation-triangle"></i>
+                                                </div>
+                                                <!--//icon-holder-->
+                                                <div class="content">
+                                                    <p>If you are not an expert on child theme, you simply avoid the child theme part.</p>
+                                                </div>
+                                                <!--//content-->
+                                            </div>
+                                            <!--//callout-block-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+
+                                <div id="import_demo_data" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">Import Demo Data</h3>
+                                            <p>Building a site from the beginning always difficult as well as time-consuming. So, we provide the most popular <strong>One Click Demo Installation</strong> option, and you can easily get your site exactly like
+                                                our theme demo within a few minutes.</p>
+
+                                            <p><strong class="steps">Few Important Notes:</strong> <br /></p>
+                                            <ul>
+                                                <li>Make sure that Appeal Parent Theme has been <strong>installed and activated</strong> in your site.</li>
+                                                <li>Your previous data and settings may be removed or modified after importing demo data. So, we profoundly recommend importing demo data in a fresh WordPress site.</li>
+                                                <li>It may take a bit long time to import all the images and demo data from our server. So, please keep patience while importing process is running in your site. In general case, It will not take more than 3-5
+                                                    minutes.</li>
+                                                <li>You can deactivate <strong>One Click Demo Import</strong> plugin after completing import task.</li>
+                                            </ul>
+
+                                            <p>Please follow the steps -</p>
+
+                                            <p><strong class="steps">Step 01:</strong> Make sure you have installed and activated <em>One Click Demo Import</em> plugin.</p>
+
+                                            <div class="doc-img-box text-left">
+                                                <a href="img/import_data/1.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/import_data/1.jpg" alt="screenshot" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 02:</strong> Go to <em>Appearance >> Import Demo Data</em> page.</p>
+
+                                            <div class="doc-img-box text-left">
+                                                <a href="img/import_data/2.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/import_data/2.jpg" alt="screenshot" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 03:</strong> Click <em>Import Demo Data</em> button. It will take few min to complete import process. So, keep patience until import process completed successfully.</p>
+
+                                            <div class="doc-img-box text-left">
+                                                <a href="img/import_data/3.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/import_data/3.jpg" alt="screenshot" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 04:</strong> Once completed import process successfully, you will get following success message.</p>
+
+                                            <div class="doc-img-box text-left">
+                                                <a href="img/import_data/4.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/import_data/4.jpg" alt="screenshot" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 05:</strong> Check Result -</p>
+
+                                            <div class="doc-img-box text-left">
+                                                <a href="img/import_data/5.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/import_data/5.jpg" alt="screenshot" />
+                                                </a>
+                                            </div>
+
+                                            <div class="callout-block callout-info">
+                                                <div class="icon-holder">
+                                                    <i class="fas fa-info-circle"></i>
+                                                </div>
+                                                <!--//icon-holder-->
+                                                <div class="content">
+                                                    <p>If you face any kind of 500 server issue please check the ' <a href="https://github.com/proteusthemes/one-click-demo-import/blob/master/docs/import-problems.md" target="_blank" class="">troubleshooting article</a>                                                        ' .</p>
+                                                </div>
+                                                <!--//content-->
+                                            </div>
+                                            <!--//callout-block-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+                            </section>
+                            <!--//doc-section-->
+
+                            <!--  Theme Options Panel Section -->
+
+                            <section id="theme_option_panel_section" class="doc-section">
+                                <h2 class="section-title">Theme Options Panel</h2>
+                                <p>This theme comes with lots of <em>admin options</em>, Go to <em>Appeal Options</em> from the left panel and you'll see all the cool things you'll have to <em>customize</em> to satisfy your needs.</p>
+
+                                <div id="setup_favicon" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">Setup Favicon</h3>
+
+                                            <p><strong class="steps">Step 01:</strong> From WP admin menu, navigate to <em>Appeal Options >> General</em> tab.</p>
+
+                                            <p><strong class="steps">Step 02:</strong> Upload the site favicon. ( Recommended favicon size is 64x64 and file type in <strong>PNG</strong> format. )</p>
+
+                                            <p><strong class="steps">Step 03:</strong> Finally, click <strong>Save Changes</strong> button to save the settings.</p>
+
+                                            <div class="doc-img-box text-left">
+                                                <a href="img/05_1.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/05_1.jpg" alt="screenshot" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong>OUTPUT: </strong> <br /><br /><img src="img/05_2.jpg" alt="doc_img" /></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+
+                                <!--  Custmoize Pre Load Screen -->
+
+                                <div id="customize_pre_load_screen" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">Customize Pre Load Screen</h3>
+
+                                            <p><strong class="steps">Step 01:</strong> From WP admin menu, navigate to <em>Appeal Options >> General</em> tab.</p>
+
+                                            <p><strong class="steps">Step 02:</strong> Set the <em>Disable Preloader?</em> option to <em>ON</em>, If you would like to disable the pre load screen.</p>
+
+                                            <p><strong class="steps">Step 03:</strong> You can also upload custom icon( Recommended size is 64x64 and file type in <strong>GIF</strong> format. ) and set custom background color for the preloadscreen. Finally,
+                                                click <strong>Save Changes</strong> button to save the settings.</p>
+
+                                            <div class="doc-img-box text-left">
+                                                <a href="img/customize_prelaod_screen.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/customize_prelaod_screen.jpg" alt="screenshot" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong>OUTPUT: </strong></p>
+                                            <div class="doc-img-box text-left">
+                                                <a href="img/output_preload_screen.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/output_preload_screen.jpg" alt="screenshot" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+
+                                <!--  Customize Back To Top Button -->
+
+                                <div id="customize_back_to_top_button" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">Customize Back To Top Button</h3>
+
+                                            <p><strong class="steps">Step 01:</strong> From WP admin menu, navigate to <em>Appeal Options >> General</em> tab.</p>
+
+                                            <p><strong class="steps">Step 02:</strong> Set the <em>Disable Back To Top?</em> option to <em>ON</em>, If you would like to disable the button.</p>
+
+                                            <p><strong class="steps">Step 03:</strong> You can also set custom background for the button. Finally, click <strong>Save Changes</strong> button to save the settings.</p>
+
+                                            <div class="doc-img-box text-left">
+                                                <a href="img/customize_back_to_top_button.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/customize_back_to_top_button.jpg" alt="screenshot" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong>OUTPUT: </strong> <br /><br /><img src="img/output_back_to_top_screen.jpg" alt="doc_img" /></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+
+                                <div id="setup_site_logo" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">Setup Site Logo</h3>
+                                            <p><strong class="steps">Step 01:</strong> From Admin menu, navigate to <em>Appeal Options >> Header >> Logo</em> tab.</p>
+
+                                            <p><strong class="steps">Step 02:</strong> You can set custom logo for your site, set text logo and set padding/margin according to your requirement.</p>
+
+                                            <p><strong class="steps">Step 03:</strong> Finally, click <strong>Save Changes</strong> button to save the settings.</p>
+
+                                            <div class="doc-img-box text-left">
+                                                <a href="img/05_7.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/05_7.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+                                            <p><strong>OUTPUT: </strong></p>
+
+                                            <div class="doc-img-box text-left">
+                                                <a href="img/05_8.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/05_8.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+
+                                <div id="tool_bar_customization" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">Tool Bar Customization</h3>
+                                            <p>Appeal WordPress theme brings two type of toolbar layout styles.</p>
+
+                                            <h4 class="block-title" id="toolbar_layout_01">Toolbar Layout 01:</h4>
+
+                                            <div class="doc-img-box text-left">
+                                                <a href="img/05_4.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/05_4.jpg" alt="screenshot" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 01:</strong> From Admin menu, navigate to <em>Appeal Options >> Toolbar</em> tab.</p>
+
+                                            <p><strong class="steps">Step 02:</strong> You can enable/disable toolbar. You can also customize toolbar color, font size, texts and set padding according to your requirement.</p>
+
+                                            <p><strong class="steps">Step 03:</strong> Finally, click <strong>Save Changes</strong> button to save the settings.</p>
+
+                                            <div class="doc-img-box text-left">
+                                                <a href="img/05_3.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/05_3.jpg" alt="screenshot" />
+                                                </a>
+                                            </div>
+
+                                            <!--  Toolbar Layout 01 -->
+
+                                            <h3 class="block-title">Layout 01 HTML Code:</h3>
+
+                                            <p>Toolbar Left Content:</p>
+                                            <pre class="language-markup line-numbers"><code>&lt;span class="margin-right20">
+&lt;i class="fa fa-phone-square">&lt;/i> (+01) 284-5321-5831
+&lt;/span>
+
+&lt;a href="mailto:info@appeal.org">
+&lt;i class="fa fa-paper-plane">&lt;/i> info@dynamism.org
+&lt;/a></code></pre>
+
+                                            <p>Toolbar Right Social:</p>
+                                            <pre class="language-markup line-numbers"><code>&lt;span class="margin-right20">
+&lt;i class="fa fa-map-marker">&lt;/i> 504 Syl Avenue, Sylhet 1214, Finland
+&lt;/span></code></pre>
+                                            <p>Toolbar Right Button:</p>
+                                            <pre class="language-markup line-numbers"><code>&lt;a href="#" class="free-estimate">GET FREE QUOTE&lt;/a></code></pre>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+
+                                <div id="customize_menu_color" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">Customize Menu/Navigation Color</h3>
+
+                                            <p><strong class="steps">Step 01:</strong> From Admin menu, navigate to <em>Appeal Options > Header > Navbar</em> tab.</p>
+
+                                            <p><strong class="steps">Step 02:</strong> You can customize menu color, menu item background, menu fonts and set padding/margin according to your requirement.</p>
+
+                                            <p><strong class="steps">Step 03:</strong> Finally, click <strong>Save Changes</strong> button to save the settings.</p>
+
+                                            <div class="doc-img-box text-left">
+                                                <a href="img/05_5.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/05_5.jpg" alt="screenshot" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+
+                                <div id="add_copyright_text" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">Footer & Copyright Text</h3>
+                                            <p><strong class="steps">Step 01:</strong> From Admin menu, navigate to <em>Appeal Options >> Footer </em> tab.</p>
+
+                                            <p><strong class="steps">Step 02:</strong> You can set custom copyright text according to your requirement. You can also disable this copyright text section.</p>
+
+                                            <p><strong class="steps">Step 03:</strong> Finally, click <strong>Save Changes</strong> button to save the settings.</p>
+
+                                            <div class="doc-img-box">
+                                                <a href="img/05_9.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/05_9.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+                                            <p><strong>OUTPUT: </strong> <br /><br /><img src="img/05_10.jpg" alt="doc_img" class="img-fluid" /></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+
+                                <div id="typography_background_heading_widget_styles" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">Setup theme Typography, background, Heading & Sidebar(Widget) styles</h3>
+
+                                            <p><strong class="steps">Step 01:</strong> From Admin menu, navigate to <em>Appeal Options >> Styling Options >> Body Styling </em> tab.</p>
+
+                                            <p><strong class="steps">Step 02:</strong> You can set body background, fonts, text size, link colors according to your requirements. Also, you can manage heading(h1,h2,h3,h4,h5,h6) color and font size. You can
+                                                set theme sidebar(widget) background and fonts from body styling section.</p>
+
+                                            <p><strong class="steps">Step 03:</strong> Finally, click <strong>Save Changes</strong> button to save the settings.</p>
+
+                                            <div class="doc-img-box">
+                                                <a href="img/05_11.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/05_11.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+
+                                <div id="default_header_styling" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">Default Header Styling</h3>
+
+                                            <p><strong class="steps">Step 01:</strong> From Admin menu, navigate to <em>Appeal Options >> Styling Options >> Header Styling </em> tab.</p>
+
+                                            <p><strong class="steps">Step 02:</strong> You can enable/disable sticky header option from here. Also, set custom font and background color of default header and after sticky position font and background color.</p>
+
+                                            <p><strong class="steps">Step 03:</strong> Finally, click <strong>Save Changes</strong> button to save the settings.</p>
+
+                                            <div class="doc-img-box">
+                                                <a href="img/05_12.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/05_12.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+                                            <p><strong>OUTPUT: </strong></p>
+
+                                            <div class="doc-img-box">
+                                                <a href="img/05_13.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/05_13.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+
+                                <div id="bottom_widget_area_styling" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">Footer/Bottom Widget Styling</h3>
+
+                                            <p><strong class="steps">Step 01:</strong> From Admin menu, navigate to <em>Appeal Options >> Styling Options >> Bottom Styling </em> tab.</p>
+
+                                            <p><strong class="steps">Step 02:</strong> You can set custom background image and background color bottom. Also, customize bottom widget fonts and colors.</p>
+
+                                            <p><strong class="steps">Step 03:</strong> Finally, click <strong>Save Changes</strong> button to save the settings.</p>
+
+                                            <div class="doc-img-box">
+                                                <a href="img/05_16.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/05_16.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+                                            <p><strong>OUTPUT: </strong></p>
+                                            <div class="doc-img-box">
+                                                <a href="img/05_17.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/05_17.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+                            </section>
+                            <!--//doc-section-->
+
+                            <!--  BWL Petition Manager Plugin Section -->
+
+                            <section id="petition_manager_plugin" class="doc-section">
+                                <h2 class="section-title">Petition Manager Plugin</h2>
+                                <p>We have created Petition Manager Plugin with <strong>12+</strong> WPBakery Page Builder elements for you. You can find them in <em>Appeal Addon</em> tab in the WPBakery Page Builder.</p>
+                                <div class="doc-img-box">
+                                    <a href="img/06_3.jpg" class="venobox">
+                                        <img class="img-fluid" src="img/06_3.jpg" alt="doc_img" />
+                                    </a>
+                                </div>
+
+                                <div class="callout-block callout-warning">
+                                    <div class="icon-holder">
+                                        <i class="fas fa-exclamation-triangle"></i>
+                                    </div>
+                                    <!--//icon-holder-->
+                                    <div class="content">
+                                        <p>Check the details documentation of <a href="../petitions_manager_plugin_doc/index.html" target="_blank">Petition Manager WordPress plugin</a>.</p>
+                                    </div>
+                                    <!--//content-->
+                                </div>
+                                <!--//callout-block-->
+                            </section>
+                            <!--//doc-section-->
+
+                            <!--  BWL News Manager Plugin Section -->
+
+                            <section id="bwl_news_manager_plugin" class="doc-section">
+                                <h2 class="section-title">BWL News Manager Plugin</h2>
+                                <p>The plugin allows you to display the latest news regarding the petitions and their updates. It comes with <strong>03 (three) stylish layouts</strong> and you can easily set them from the Page builder options.</p>
+
+                                <div class="section-block">
+                                    <h3 class="block-title">News Manager Layouts:</h3>
+                                    <div class="doc-img-box">
+                                        <a href="img/bwl_news_layouts.jpg" class="venobox">
+                                            <img class="img-fluid" src="img/bwl_news_layouts.jpg" alt="doc_img" />
+                                        </a>
+                                    </div>
+
+                                    <h3 class="block-title">WP Bakery Page Builder Block:</h3>
+                                    <div class="doc-img-box">
+                                        <a href="img/bwl_news_wp_bakery_page_builder_block.jpg" class="venobox">
+                                            <img class="img-fluid" src="img/bwl_news_wp_bakery_page_builder_block.jpg" alt="doc_img" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </section>
+                            <!--//doc-section-->
+
+                            <!--  Setup Page Content Section -->
+
+                            <section id="setup_page_content_section" class="doc-section">
+                                <h2 class="section-title">Setup Page Content</h2>
+                                <p>Check the different part creation/editing process (Home, Pages- About Us, Contact Us Etc.)</p>
+                                <p>The following part of the documentation consider that you already read (if not then it is strongly recommend that you read them first) the <em>documentation of WPBakery Page Builder</em>. It is available in the documentation
+                                    folder and can able to <em>use drag n drop page builder</em> etc.</p>
+
+                                <div id="home_page" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">Petition Home Page</h3>
+
+                                            <p><strong class="steps">Step 01:</strong> First you have to create a petition using <em>Petitions Manager WordPress plugin</em> Check the <a href="../petitions_manager_plugin_doc/index.html#add_new_petition" target="_blank">Plugin documentation</a>                                                for details.</p>
+
+                                            <p><strong class="steps">Step 02:</strong> Go to <em>Pages >> Add New</em> from the left panel. Next, Input the title <em>Home 1</em> of the page. From the right side <em>Page Attribute</em>, select <em>One Page Header1</em>                                                from the <em>Template</em> selection dropdown. From The right side <em>Page Layout Settings</em> select <em>"WPBakery Page Builder Page" to "Yes"</em>.</p>
+
+                                            <p><strong class="steps">Step 03:</strong> Click on Backend Editor and achieve <em>Classic Mode</em> to achieve <em>WPBakery Page Builder</em> drag n drop process.</p>
+
+                                            <div class="doc-img-box">
+                                                <a href="img/06_1.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/06_1.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 04:</strong> Click on <em>Add New Element</em> to achieve a <em>Row</em> of WPBakery Page Builder.</p>
+
+                                            <div class="doc-img-box">
+                                                <a href="img/06_2.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/06_2.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+
+                                <div id="about_us_page" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">About Us Page</h3>
+                                            <p><strong class="steps">Step 01:</strong> Go to <em>"Pages >> Add New"</em> from the left panel.</p>
+                                            <p><strong class="steps">Step 02:</strong> Input the title <em>"About Us"</em> of the page. From the right side <em>Page Attribute</em>, select <em>Home Page</em> from the <em>Template</em> selection dropdown.
+                                                From The right side <em>Page Layout Settings</em> select <em>"WPBakery Page Builder Page" to "Yes"</em> .</p>
+                                            <p><strong class="steps">Step 03:</strong> Click on <em>Backend Editor</em> to achieve <em>WPBakery Page Builder</em> drag n drop process.</p>
+                                            <p><strong class="steps">Step 04:</strong> Click on <em>Add New Element</em> to achieve a <em>Row</em> of WPBakery Page Builder.</p>
+                                            <p><strong class="steps">Step 05:</strong> Inside the <em>Row</em> you can add different elements by drag n drop WPBakery Page Builder.</p>
+                                            <p><strong class="steps">Step 06:</strong> We add WPBakery Page Builder <em>Elements</em> to achieve the about page layout, you should see <em>WPBakery Page Builder</em> in the <em>Documentation Folder</em>.</p>
+                                            <p><strong class="steps">Step 07:</strong> Here are the screenshot of <em>Different Elements</em> we used in the <em>About Us</em> page.</p>
+                                            <div class="doc-img-box">
+                                                <a href="img/07_1.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/07_1.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+
+                                <div id="contact_page" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">Contact Page</h3>
+                                            <div class="alert alert-info">
+                                                <p>You need to install <strong>Contact Form 7</strong> plugin to proceed the following steps. Please note that, we have used the plugin for build <strong>Appointment Form</strong> and <strong>Contact Form</strong>                                                    layout.</p>
+                                            </div>
+                                            <p><strong class="steps">Step 01:</strong> Go to <em>Contact >> Add New</em> from the left panel.</p>
+
+                                            <p><strong class="steps">Step 02:</strong> Add the title <em>Contact form 1</em> of the Contact Form. Then, add follwoing lines Setup the <em>From</em> portion of the contact from(Ex: See the following screenshot).</p>
+
+                                            <div class="doc-img-box">
+                                                <a href="img/10_1.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/10_1.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+
+                                            <h4 class="block-title">Get Contact Form Shortcode:</h4>
+                                            <p>Navigate to <em>Contact >> Contact Forms</em> page. You will get the lists like the following screenshot.</p>
+                                            <div class="doc-img-box">
+                                                <a href="img/contact_form_shortcode.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/contact_form_shortcode.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+
+                                            <h4 class="block-title">Contact Form (Default Layout) Code:</h4>
+                                            <p>We strongly recommend to use the following codes to generate contact form layout.</p>
+
+                                            <pre class="language-markup line-numbers"><code>[text* your-name placeholder "Name"]
+[email* your-email placeholder "Email"]
+[text* your-subject placeholder "Subject"]
+[textarea* your-message 40x5 placeholder "Your message here"]
+[submit class:btn-theme class:btn-square class:btn"Send Message"]</code></pre>
+
+                                            <h4 class="block-title">Shortcode:</h4>
+                                            <p><span class="badge badge-primary">Please Note: </span> The value of <em>id</em> tag in shortcode may be different for your site. Additionally, You can include additional class <strong>appeal-contact-form</strong>                                                to get the alternative contact form layout.</p>
+                                            <pre class="language-markup line-numbers"><code>[contact-form-7 id="5" title="Contact Form"]</code></pre>
+                                            <pre class="language-markup line-numbers"><code>[contact-form-7 id="5" title="Contact Form" html_class="appeal-contact-form"]</code></pre>
+
+                                            <h4 class="block-title">Contact Form (Default Layout) Output:</h4>
+                                            <div class="doc-img-box">
+                                                <a href="img/contact_form_default_output.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/contact_form_default_output.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 03:</strong> Setup the <em>Mail</em> portion of the contact from (Ex: See the following screenshot)</p>
+
+                                            <div class="doc-img-box">
+                                                <a href="img/10_2.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/10_2.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+
+                                            <p>
+                                                <i>Recommendation: <a href="https://www.youtube.com/watch?v=PV26aJ05zXM" class="venobox" data-vbtype="video" data-autoplay="true">https://www.youtube.com/watch?v=PV26aJ05zXM</a></i>
+                                            </p>
+
+                                            <p><strong class="steps">Step 04:</strong> Setup the <em>Messages</em> portion of the contact from (Ex: See the following screenshot)</p>
+
+                                            <div class="doc-img-box">
+                                                <a href="img/10_3.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/10_3.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 05:</strong> Click <em>Save</em> to save the Form and you'll get a form <em>short code</em> which we'll <em>paste</em> in a page to achieve the form output.</p>
+
+                                            <p><strong class="steps">Step 06:</strong> Go to <em>"Pages > Add New"</em> from the left panel.</p>
+
+                                            <p><strong class="steps">Step 07:</strong> Input the title<em> "Contact 1"</em> of the page. From the right side <em>Page Attribute</em>, select <em>Home Page</em> from the <em>Template</em> selection dropdown.
+                                                From The right side <em>Page Layout Settings</em> select <em>"WPBakery Page Builder Page" to "Yes"</em>.</p>
+
+                                            <p><strong class="steps">Step 08:</strong> Click on <em>Backend Editor</em> to achieve <em>WPBakery Page Builder</em> drag n drop process.</p>
+
+                                            <p><strong class="steps">Step 09:</strong> Click on <em>Add New Element</em> to achieve a <em>Row</em> of WPBakery Page Builder.</p>
+
+                                            <p><strong class="steps">Step 10:</strong> Inside the <em>Row</em> you can add different elements by drag n drop WPBakery Page Builder.</p>
+
+                                            <p><strong class="steps">Step 11:</strong> We add WPBakery Page Builder <em>Google Map, Info Box and Text Block Elements</em> for this page.</p>
+
+                                            <p><strong class="steps">Step 12:</strong> You should see the WPBakery Page Builder<em>Documentation Folder</em>.</p>
+
+                                            <p><strong class="steps">Step 13:</strong> Setup the <em>Google Map Elements</em> Latitude and longitude to achieve the map.</p>
+
+                                            <p><strong class="steps">Step 14:</strong> Paste the short code into the Text Block (Ex: like following you'll have a short code).</p>
+
+                                            <pre class="language-markup line-numbers"><code>[contact-form-7 id="2209" title="Contact Form" html_class="appeal-contact-form"]</code></pre>
+                                            <p><strong class="steps">Step 15:</strong> Here are the screen shot of <em>Different Block Elements</em> we used in the <em>Contact 1</em> page.</p>
+                                            <div class="doc-img-box">
+                                                <a href="img/10_4.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/10_4.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+
+                                <div id="blog_page" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">Blog Page</h3>
+                                            <p><strong class="steps">Step 01:</strong> Click on <em>Posts >>Categories</em> from the admin side left panel and <em>create post Categories</em>.</p>
+                                            <div class="doc-img-box">
+                                                <a href="img/11_1.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/11_1.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 02:</strong> Click on <em>Posts >> Add New</em> from the admin side left panel and <em>create post under the Categories</em>. Set the right side <em>Appeal Metabox</em> according to
+                                                your needs for <em>single post view</em>.</p>
+
+                                            <div class="doc-img-box">
+                                                <a href="img/11_2.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/11_2.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 03:</strong> Click on <em>Pages>>Add New</em> from the admin side left panel and input <em>Page Title</em>.</p>
+
+                                            <p><strong class="steps">Step 04:</strong> In the right side <em>Page Attributes</em> set the <em>Template</em> to <em>Blog Both Sidebar, Blog Full Width, Blog Left Sidebar, Blog Right Sidebar, Blog Sidebars in Left or Blog Sidebars in Right</em>,
+                                                whatever layout you want from the dropdown.</p>
+                                            <div class="doc-img-box">
+                                                <a href="img/11_3.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/11_3.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+
+                                <div id="woocommerce_store_page" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">WooCommerce Store</h3>
+                                            <p><strong class="steps">Step 01:</strong> After installing the <em>WooCommerce</em> plugin during the theme installation you'll have <em>all the pages (Cart, Store, My Account, Checkout)</em> in the left panel
+                                                <em>Appearnce >> Menus</em>. Going to left panel <em>Appearnce >> Menus</em> add these item to the <em>main menu</em>.</p>
+
+                                            <div class="doc-img-box">
+                                                <a href="img/woo_13_1.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/woo_13_1.jpg" alt="demo" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 02:</strong> To add a WooCommerce category go to <em>Products >> Categories</em> from the left panel and then <em>add new product Category</em>.</p>
+
+                                            <div class="doc-img-box">
+                                                <a href="img/woo_13_2.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/woo_13_2.jpg" alt="demo" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 03:</strong> To add a WooCommerce Products go to <em>Products >> Add Product</em> from the left panel and then <em>add new products</em> under any Categories.</p>
+                                            <div class="doc-img-box">
+                                                <a href="img/woo_13_3.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/woo_13_3.jpg" alt="demo" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 04:</strong> Now you should see all the added new products in the front end <em>Store/Shop Page</em>.</p>
+                                            <p><strong class="steps">Step 05:</strong> if you want to use WooCommerce as an advance user then refer this link <a href="http://docs.woothemes.com/documentation/plugins/woocommerce/" target="_blank">WooCommerce Docs</a>                                                , you'll have all the things as an advance user.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+                            </section>
+                            <!--//doc-section-->
+
+                            <!-- Menu Setup Section  -->
+
+                            <section id="menu_setup_section" class="doc-section">
+                                <h2 class="section-title">Menu Setup</h2>
+                                <p>Appeal Theme comes with two menu location feature. One for <em>Primary Menu</em> and another for <em>Footer Menu</em>. Let's take a look on step by step settings of two menus.</p>
+
+                                <div id="primary_menu" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">Primary Menu/Main Menu</h3>
+                                            <p><strong class="steps">Step 01:</strong> Navigate to <em>Appearance>>Menus</em> . From the <em>Select a menu to edit:</em> drop down select <em>Main Menu</em> and click <em>Select</em> button. Next, from the
+                                                <em>Add menu items</em> panel choose the required menu items and click <em>Add to Menu</em> button.</p>
+
+                                            <div class="doc-img-box">
+                                                <a href="img/menu/primary/1.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/menu/primary/1.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 02:</strong> Now, click on the <em>Manage Locations</em> tab to set primary menu. Select <em>Menu Menu</em> from the <strong>Assigned menu</strong> drop down and click <em>Save changes</em>                                                button.</p>
+
+                                            <div class="doc-img-box">
+                                                <a href="img/menu/primary/2.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/menu/primary/2.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+
+                                            <p><br /><strong>OUTPUT: </strong></p>
+
+                                            <div class="doc-img-box">
+                                                <a href="img/menu/primary/1_output.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/menu/primary/1_output.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+
+                                <div id="footer_menu" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">Footer Menu</h3>
+                                            <p><strong class="steps">Step 01:</strong> Navigate to <em>Appearance>>Menus</em> . From the <em>Select a menu to edit:</em> drop down select <em>Footer Menu</em> and click <em>Select</em> button. Next, from the
+                                                <em>Add menu items</em> panel choose the required menu items and click <em>Add to Menu</em> button.</p>
+                                            <div class="doc-img-box">
+                                                <a href="img/menu/footer/1.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/menu/footer/1.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 02:</strong> Now, click on the <em>Manage Locations</em> tab to set primary menu. Select <em>Footer Menu</em> from the <strong>Assigned menu</strong> drop down and click <em>Save changes</em>                                                button.</p>
+
+                                            <div class="doc-img-box">
+                                                <a href="img/menu/footer/2.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/menu/footer/2.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+
+                                            <p><br /><strong>OUTPUT: </strong><br /><br /></p>
+
+                                            <div class="doc-img-box">
+                                                <a href="img/menu/footer/1_output.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/menu/footer/1_output.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+
+                                <div id="one_page_menu" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">One Page Menu</h3>
+                                            <p><strong class="steps">Step 01:</strong> Navigate to <em>Appearance>>Menus</em> . From the <em>Select a menu to edit:</em> drop down select <em>One Page Menu</em> and click <em>Select</em> button. Next, from
+                                                the <em>Add menu items</em> panel choose the required menu items and click <em>Add to Menu</em> button.</p>
+                                            <div class="doc-img-box">
+                                                <a href="img/menu/one_page/1.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/menu/one_page/1.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+
+                                            <p><strong class="steps">Step 02:</strong> Now, click on the <em>Manage Locations</em> tab to set primary menu. Select <em>One Page Menu</em> from the <strong>Assigned menu</strong> drop down and click <em>Save changes</em>                                                button.</p>
+
+                                            <div class="doc-img-box">
+                                                <a href="img/menu/one_page/2.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/menu/one_page/2.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+                            </section>
+                            <!--//doc-section-->
+
+                            <!-- Widget Settings Section  -->
+
+                            <section id="widget_settings_section" class="doc-section">
+                                <h2 class="section-title">Widget Settings</h2>
+                                <p>Appeal WordPress Theme comes with <em>Six</em> widget areas. Two widget areas for <em>Blog</em> and Four for <em>Footer</em>.</p>
+
+                                <div id="blog_widget_area" class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h3 class="block-title">Blog Widget Area</h3>
+
+                                            <div class="doc-img-box">
+                                                <a href="img/widgets/1.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/widgets/1.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+
+                                            <p><br /><strong>OUTPUT: </strong><br /><br /></p>
+
+                                            <div class="doc-img-box">
+                                                <a href="img/widgets/1_output.jpg" class="venobox">
+                                                    <img class="img-fluid" src="img/widgets/1_output.jpg" alt="doc_img" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//section-block-->
+                            </section>
+                            <!--//doc-section-->
+
+                            <!-- Theme Translation Block  -->
+
+                            <section id="theme_translation" class="doc-section">
+                                <h2 class="section-title">Theme Translation</h2>
+
+                                <div class="section-block">
+                                    <p>"Appeal" WordPress theme offers cool translation feature. So, beside the English you can easily translate the theme text for other languages as well. Check following steps to translate "Appeal" WordPress theme.</p>
+
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <p>
+                                                <strong class="steps">Step 01: </strong> To translate the theme texts, please download and install Poedit software in your computer. Here goes the download link-
+                                                <a href="https://poedit.net/download" target="_blank">https://poedit.net/download</a>
+                                            </p>
+
+                                            <p><strong class="steps">Step 02: </strong> Next, navigate to <strong>/wp-content/themes/appeal/languages/</strong>. You will get a file named 'appeal.pot'.</p>
+
+                                            <p><strong class="steps">Step 03: </strong> For example, we want to translate our theme text in to <strong>Dutch</strong> language. So, copy 'appeal.pot' file and rename it to 'de_De.pot'</p>
+
+                                            <p><strong class="steps">Step 04: </strong> Now, open that newly created 'de_De.pot' file using <strong>Poedit</strong> software. You will get all the theme texts in there and you just need to add appropriate translated
+                                                text in <strong>Translation</strong> box.</p>
+
+                                            <p><strong class="steps">Step 05: </strong> Finally, save the file and you'll get 'de_De.mo' file inside <strong>languages</strong> folder.</p>
+
+                                            <div class="callout-block callout-info">
+                                                <div class="icon-holder">
+                                                    <i class="fas fa-info-circle"></i>
+                                                </div>
+                                                <!--//icon-holder-->
+                                                <div class="content">
+                                                    <h4 class="callout-title">Note:</h4>
+                                                    <p>Not sure about country and language code? Get your <a href="http://www.gnu.org/savannah-checkouts/gnu/gettext/manual/html_node/Country-Codes.html#Country-Codes" target="_blank">Country Code </a> and
+                                                        <a href="http://www.gnu.org/savannah-checkouts/gnu/gettext/manual/html_node/Usual-Language-Codes.html#Usual-Language-Codes" target="_blank">Language code</a>.</p>
+                                                </div>
+                                                <!--//content-->
+                                            </div>
+                                            <!--//callout-block-->
+
+                                            <p class="d-none">
+                                                <a class="btn btn-cta btn-primary venobox" href="https://www.youtube.com/watch?v=EkDV0OhykYY" data-vbtype="video" data-autoplay="true"> <i class="fas fa-play"></i> Check Video Tutorial </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <section id="support_miscellaneous_section" class="doc-section">
+                                <h2 class="section-title">Support & Miscellaneous</h2>
+                                <p>Appeal Theme comes with six month premium support directly from the developer.</p>
+
+                                <!--  FAQ/Troubleshoot Section  -->
+
+                                <div id="faq_trouble_shoot" class="section-block">
+                                    <h3 class="block-title">Troubleshooting</h3>
+
+                                    <!--  Start FAQ Section -->
+
+                                    <div class="accordion" id="faq_accordion">
+                                        <!--  FAQ#1 -->
+
+                                        <div class="card">
+                                            <div class="card-header" id="headingOne">
+                                                <a class="btn-link collapsed" href="#" data-toggle="collapse" data-target="#faq_1"> <i class="fas fa-question-circle"></i> "The package could not be installed. The theme is missing the style.css stylesheet.". How to fix? </a>
+                                            </div>
+
+                                            <div id="faq_1" class="collapse show" aria-labelledby="headingOne" data-parent="#faq_accordion">
+                                                <div class="card-body">
+                                                    <p>You may try to upload complete zip file downloaded from themeforest. Unzip you're downloaded file and you'll get <em>'appeal.zip'</em> file. Only upload <em>'appeal.zip'</em> file. Issue will be solved.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--  FAQ#2 -->
+
+                                        <div class="card">
+                                            <div class="card-header" id="headingTwo">
+                                                <a class="btn-link collapsed" href="#" data-toggle="collapse" data-target="#faq_2"> <i class="fas fa-question-circle"></i> When I attempt to install it, I received the "Are you sure you want to do this?" error message. How to fix? </a>
+                                            </div>
+
+                                            <div id="faq_2" class="collapse" aria-labelledby="headingTwo" data-parent="#faq_accordion">
+                                                <div class="card-body">
+                                                    <p>It's a server execution time related issue. You can contact with your host provider to increase script execution time. There are two ways you can fix that issue.</p>
+                                                    <ul>
+                                                        <li><strong>Way 01:</strong> Unzip theme folder & files. Then using FTP upload it in wp-content/themes folder.</li>
+                                                        <li><strong>Way 02: </strong>You'll find 'plugins' folder inside 'appeal' theme. Which contain all the required plugins. Just bring it out from <em>'appeal'</em> theme folder then zip the theme folder
+                                                            and upload it like regular WP theme.</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--  FAQ#3 -->
+
+                                        <div class="card">
+                                            <div class="card-header" id="headingThree">
+                                                <a class="btn-link collapsed" href="#" data-toggle="collapse" data-target="#faq_3"> <i class="fas fa-question-circle"></i> How to get WPBakery Page Builder updated version? </a>
+                                            </div>
+
+                                            <div id="faq_3" class="collapse" aria-labelledby="headingThree" data-parent="#faq_accordion">
+                                                <div class="card-body">
+                                                    <p>
+                                                        Just send us a message via support page link. You'll send you updated version download link. <br />
+                                                        <a href="https://themeforest.net/item/appeal-fully-functional-petition-theme/16149266/support/contact" target="_blank">https://themeforest.net/item/appeal-fully-functional-petition-theme/16149266/support/contact</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--  FAQ#4 -->
+
+                                        <div class="card">
+                                            <div class="card-header" id="headingThree">
+                                                <a class="btn-link collapsed" href="#" data-toggle="collapse" data-target="#faq_4"> <i class="fas fa-question-circle"></i> Can not able to install demo data? What should I do now? </a>
+                                            </div>
+
+                                            <div id="faq_4" class="collapse" aria-labelledby="headingThree" data-parent="#faq_accordion">
+                                                <div class="card-body">
+                                                    <p>It may be server related issue. You can contact with your hosting provider or contact with us via support page. We'll be happy to assist you.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--  FAQ#5 -->
+
+                                        <div class="card">
+                                            <div class="card-header" id="headingThree">
+                                                <a class="btn-link collapsed" href="#" data-toggle="collapse" data-target="#faq_6"> <i class="fas fa-question-circle"></i> Getting 404 after import data? What should I do? </a>
+                                            </div>
+
+                                            <div id="faq_6" class="collapse" aria-labelledby="headingThree" data-parent="#faq_accordion">
+                                                <div class="card-body">
+                                                    <p>You need to flush your permalink settings. To do this Go to <em>WP Admin Panel >> Settings >> Permalinks</em> . Then click "Save" button. Now, check you're pages. Hope issue will be solved.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--  End FAQ section  -->
+                                </div>
+                                <!--//doc-section-->
+
+                                <!-- Upgrade Notes Section  -->
+
+                                <div id="upgrade_notes" class="section-block">
+                                    <h3 class="block-title">Upgrade Notes</h3>
+
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <div class="jumbotron">
+                                                <p>To update theme you can follow the steps-</p>
+                                                <ul>
+                                                    <li>
+                                                        Download <strong><a href="https://wordpress.org/plugins/easy-theme-and-plugin-upgrades/" target="_blank">Easy Theme and Plugin Upgrades</a></strong> plugin and install it in your site.
+                                                    </li>
+                                                    <li>Choose the theme file (e.g., appeal.zip) and click Install Now button.</li>
+                                                    <li>It will automatically install the new theme and backup the old theme and give you a link to download the backup.</li>
+                                                    <li>Make sure that your theme is active.</li>
+                                                </ul>
+
+                                                <p>Before updating the theme, we recommend you to make backup of your modified files. Also deactivate the current version before uploading the new theme file.</p>
+                                            </div>
+                                            <!--//jumbotron-->
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <p>
+                                                <b>Upgrading from 1.1.7 to 1.1.8</b>
+                                            </p>
+                                            <ul>
+                                                <li>Replace all files and directories in your <strong>themes/appeal</strong> folder.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//doc-section-->
+
+                                <!-- Change Log Section  -->
+
+                                <div id="change_log" class="section-block">
+                                    <h3 class="block-title">Change Log</h3>
+
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <p>
+                                                <b>2021, December, 31 - v 1.1.8</b>
+                                            </p>
+                                            <ul class="simple-list">
+                                                <li><b>- Updated:</b> WPBakery Page Builder to 6.8.0</li>
+                                                <li><b>- Updated:</b> Theme Options Panel.</li>
+                                                <li><b>- Updated:</b> Theme language/translation file.</li>
+                                                <li><b>- Updated:</b> Theme documentation.</li>
+                                            </ul>
+
+                                            <p>
+                                                <b>2021, July, 25 - v 1.1.7</b>
+                                                <br /><b>- Updated:</b> WPBakery Page Builder to 6.7.0 <br /><b>- Updated:</b> Theme Options Panel. <br /><b>- Updated:</b> Theme language/translation file. <br /><b>- Updated:</b> Theme documentation.
+                                            </p>
+
+                                            <p>
+                                                <b>2021, March, 15 - v 1.1.6</b>
+                                                <br /><b>- Updated:</b> WPBakery Page Builder to 6.6.0 <br /><b>- Updated:</b> Theme Options Panel. <br /><b>- Updated:</b> Theme language/translation file. <br /><b>- Updated:</b> Theme documentation.
+                                            </p>
+
+                                            <p>
+                                                <b>2020, December, 02 - v 1.1.5</b>
+                                                <br /><b>- Updated:</b> WPBakery Page Builder to 6.4.2 <br /><b>- Updated:</b> Theme Options Panel. <br /><b>- Updated:</b> Theme language/translation file. <br /><b>- Updated:</b> Theme documentation.
+                                            </p>
+
+                                            <p>
+                                                <b>2020, December, 02 - v 1.1.5</b>
+                                                <br /><b>- Updated:</b> WPBakery Page Builder to 6.4.2 <br /><b>- Updated:</b> Theme Options Panel. <br /><b>- Updated:</b> Theme language/translation file. <br /><b>- Updated:</b> Theme documentation.
+                                            </p>
+
+                                            <p>
+                                                <b>2020, October, 02 - v 1.1.4</b>
+                                                <br /><b>- Updated:</b> WPBakery Page Builder to 6.4.1 <br /><b>- Updated:</b> Theme Options Panel. <br /><b>- Updated:</b> Theme language/translation file. <br /><b>- Updated:</b> Theme documentation.
+                                            </p>
+
+                                            <p>
+                                                <b>2020, January, 17 - v 1.1.3</b>
+                                                <br /><b>- Updated:</b> WPBakery Page Builder to 6.2 <br /><b>- Updated:</b> Petitions Manager to 1.0.8 (Check Petitions Manager Plugin Change Log) <br /><b>- Updated:</b> BWL News Manager to 1.0.1 <br /><b>- Updated:</b>                                                Theme Options Panel. <br /><b>- Updated:</b> Theme language/translation file. <br /><b>- Updated:</b> Theme documentation.
+                                            </p>
+
+                                            <p>
+                                                <b>2020, January, 24 - v 1.1.2</b>
+                                                <br /><b>- Updated:</b> WPBakery Page Builder to 6.1 <br /><b>- Updated:</b> Petitions Manager to 1.0.7 <br /><b>- Updated:</b> Theme Options Panel. <br /><b>- Updated:</b> Theme language/translation file.
+                                                <br /><b>- Updated:</b> Theme documentation.
+                                            </p>
+
+                                            <p>
+                                                <b>2019, August, 21 - v 1.1.1</b>
+                                                <br /><b>- Updated:</b> WPBakery Page Builder to 6.0.5 <br /><b>- Updated:</b> Petitions Manager to 1.0.6 <br /><b>- Updated:</b> Theme Options Panel. <br /><b>- Fixed:</b> Back To Top button issue for mobile
+                                                device. <br /><b>- Improved:</b> responsive layout for mobile device. <br /><b>- Updated:</b> Theme language/translation file. <br /><b>- Updated:</b> Theme documentation.
+                                            </p>
+
+                                            <p>
+                                                <b>2019, February, 16 - v 1.1.0</b>
+                                                <br /><b>- Updated:</b> WPBakery Page Builder to 5.7 <br /><b>- Updated:</b> Theme Options Panel. <br /><b>- Updated:</b> Child theme.
+
+                                                <br /><b>- Updated:</b> Theme language/translation file. <br /><b>- Updated:</b> Theme documentation.
+                                            </p>
+
+                                            <p>
+                                                <b>2019, February, 07 - v 1.0.9</b>
+                                                <br /><b>- Fixed:</b> Menu Issue. <br /><b>- Updated:</b> Petitions Manager Plugin.
+
+                                                <br /><b>- Updated:</b> Theme language/translation file. <br /><b>- Updated:</b> Theme documentation.
+                                            </p>
+
+                                            <p>
+                                                <b>2019, January, 01 - v 1.0.8</b>
+                                                <br /><b>- Updated:</b> Visual Composer Version. <br /><b>- Updated:</b> Petition Manager Plugin. <br /><b>- Updated:</b> Theme language/translation file. <br /><b>- Updated:</b> Theme documentation.
+                                            </p>
+
+                                            <p>
+                                                <b>2018, October, 29 - v 1.0.7</b>
+                                                <br /><b>- Fixed: </b> Version number to conflict issue with another theme on the WordPress.org repository.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--//doc-section-->
+
+                                <!-- Source & Credit Section  -->
+
+                                <div id="source_credit" class="section-block">
+                                    <h3 class="block-title">Source & Credit Notes</h3>
+
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <ol>
+                                                <li><a href="http://getbootstrap.com/">Bootstrap</a><br /></li>
+                                                <li><a href="http://www.jquery.com/">jQuery Plugin</a><br /></li>
+                                                <li><a href="http://fortawesome.github.io/Font-Awesome/">Owl Carousel</a><br /></li>
+                                                <li><a href="https://www.google.com/fonts">Google Fonts</a><br /></li>
+                                                <li><a href="fontawesome.io/">Font Awesome</a><br /></li>
+                                                <li><a href="https://maps.googleapis.com/maps/api/js?sensor=false&amp;ver=1.0">Google Maps API</a><br /></li>
+                                                <li><a href="http://freepik.com/ ">Freepik.com</a><br /></li>
+                                                <li><a href="http://pexels.com/">Pexels.com</a></li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <!--//doc-section-->
+                        </div>
+                        <!--//content-inner-->
+                    </div>
+                    <!--//doc-content-->
+                </div>
+                <!--//doc-body-->
+            </div>
+            <!--//container-->
+        </div>
+        <!--//doc-wrapper-->
+    </div>
+    <!--//page-wrapper-->
+
+    <footer id="footer" class="footer text-center">
+        <div class="container">
+            <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+            <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a> for developers</small>
+        </div>
+        <!--//container-->
+    </footer>
+    <!--//footer-->
+
+    <a id="backTop">Back To Top</a>
+
+    <!-- Main Javascript -->
+    <script type="text/javascript" src="assets/js/all.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+
+</html>
