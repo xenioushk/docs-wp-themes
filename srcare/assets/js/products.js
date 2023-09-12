@@ -16,8 +16,17 @@ $(function () {
 
   // Generate Dynamic Log File.
   function generateProductsList(data, $prodType = "templates") {
-    const $bwl_html_templates = $("#bwl_html_templates")
-    if ($bwl_html_templates.length) {
+    let $productContainer
+
+    if ($prodType == "themes") {
+      $productContainer = $("#bwl_wp_themes")
+    } else if ($prodType == "plugins") {
+      $productContainer = $("#bwl_wp_plugins")
+    } else {
+      $productContainer = $("#bwl_html_templates")
+    }
+
+    if ($productContainer.length) {
       data.forEach((element) => {
         var outputHtml = "<li>"
 
@@ -44,7 +53,7 @@ $(function () {
 
         outputHtml += "</li>"
 
-        $bwl_html_templates.append(outputHtml)
+        $productContainer.append(outputHtml)
       })
     }
   }
@@ -52,8 +61,36 @@ $(function () {
   // Just add a new row.
 
   const $themeForestUrl = "https://themeforest.net/item/"
+  const $codeCanyonUrl = "https://codecanyon.net/item/"
 
-  var productsData = [
+  var themeProductsData = [
+    // Add a new row below this comment.
+
+    ["Knowledgedesk - Knowledge Base WP Theme", "https://1.envato.market/kdesk-wp", "kdesk_wp.jpg"],
+    ["Senior Care - Elder Citizen WP Theme", "https://1.envato.market/srcare-wp", "srcare_wp.jpg"],
+    ["Reddrop Buddies – Activism & Blood Donation Campaign WP Theme", "https://1.envato.market/rbuddies-wp", "reddrop_buddies_wp.jpg"],
+    ["Sharai Khana - Multi-Concept Professional Services WP Theme", "https://1.envato.market/skhana-wp", "sharai_khana_wp.jpg"],
+  ]
+  generateProductsList(themeProductsData, "themes")
+
+  // Plugins.
+
+  var pluginsProductsData = [
+    // Add a new row below this comment.
+
+    ["BWL Advanced FAQ Manager", "https://1.envato.market/baf-wp", "baf.png"],
+    ["BWL Post To Breaking News Manager", "https://1.envato.market/bnm-wp", "bnm.png"],
+    ["BWL Pro Voting Manager", "https://1.envato.market/bpvm-wp", "bpvm.png"],
+    ["BWL Knowledge Base Manager", "https://1.envato.market/bkbm-wp", "bkbm.png"],
+    ["BWL Poll Manager", "https://1.envato.market/bpm-wp", "bpm.png"],
+    ["WooCommerce Product FAQ Manager", "https://1.envato.market/wpfm-wp", "wpfm.png"],
+    ["Attachment Tab For Woocommerce", "https://1.envato.market/atfc-wp", "atfc.png"],
+    ["Ultimate Searchable Accordion For WPBakery Page Builder", "https://1.envato.market/usva-wp", "usva.png"],
+  ]
+  generateProductsList(pluginsProductsData, "plugins")
+
+  // Templates.
+  var templatesProductsData = [
     // Add a new row below this comment.
 
     ["Activism Buddies - Social Campaign & Non Profit Template", $themeForestUrl + "activism-buddies-social-campaign-non-profit-html5-template/22432719", "activism_buddies.jpg"],
@@ -62,5 +99,5 @@ $(function () {
     ["Senior Care - Senior Citizens & Elders Support Template", $themeForestUrl + "senior-care-senior-citizens-elders-support-html5-template/19530660", "srcare_template.jpg"],
     ["Wish - Charity, Fundraising & Non-Profit Template", $themeForestUrl + "wish-charity-fundraising-nonprofit-html5-template/19295978", "wish.jpg"],
   ]
-  generateProductsList(productsData)
+  generateProductsList(templatesProductsData)
 })
