@@ -68,8 +68,14 @@ $(function () {
 
     ["Knowledgedesk - Knowledge Base WP Theme", "https://1.envato.market/kdesk-wp", "kdesk_wp.jpg"],
     ["Senior Care - Elder Citizen WP Theme", "https://1.envato.market/srcare-wp", "srcare_wp.jpg"],
-    ["Reddrop Buddies – Activism & Blood Donation Campaign WP Theme", "https://1.envato.market/rbuddies-wp", "reddrop_buddies_wp.jpg"],
+    ["Reddrop Buddies - Activism & Blood Donation Campaign WP Theme", "https://1.envato.market/rbuddies-wp", "reddrop_buddies_wp.jpg"],
     ["Sharai Khana - Multi-Concept Professional Services WP Theme", "https://1.envato.market/skhana-wp", "sharai_khana_wp.jpg"],
+    ["Petapalozza - Pet Care WP Theme", "https://1.envato.market/petapalozza-wp", "petapalozza_wp.jpg"],
+    ["Appeal - Functional Petition WP Theme", "https://1.envato.market/appeal-wp", "appeal_wp.jpg"],
+    ["Wish - Charity WP Theme", "https://1.envato.market/wish-wp", "wish_wp.jpg"],
+    ["Restore - Computer Repair Service WP Theme", "https://1.envato.market/restore-wp", "restore_wp.jpg"],
+    ["Greenlife - Nature & Environmental WP Theme", "https://1.envato.market/greenlife-wp", "greenlife_wp.jpg"],
+    ["Dynamism - Political & Activism WP Theme", "https://1.envato.market/dynamism-wp", "dynamism_wp.jpg"],
   ]
   generateProductsList(themeProductsData, "themes")
 
@@ -94,10 +100,13 @@ $(function () {
     // Add a new row below this comment.
 
     ["Activism Buddies - Social Campaign & Non Profit Template", $themeForestUrl + "activism-buddies-social-campaign-non-profit-html5-template/22432719", "activism_buddies.jpg"],
-    ["Appeal - Petition HTML5 Template", $themeForestUrl + "appeal-petition-html5-template/16935278", "appeal.jpg"],
+    ["Appeal - Petition Template", $themeForestUrl + "appeal-petition-html5-template/16935278", "appeal.jpg"],
+    ["Aqua Shatar - Professional Swim Academy Template", $themeForestUrl + "aqua-shatar-professional-swim-academy-html5-template/22314311", "aqua_shatar.jpg"],
+    ["Auto Repair - Maintenance and Mechanic Center Template", $themeForestUrl + "auto-repair-maintenance-and-mechanic-center-html5-template/20375120", "auto_repair_template.jpg"],
     ["SmartFix - Computer Repair Center Template", $themeForestUrl + "smartfix-computer-repair-center-html5-template/25748439", "smart_fix.jpg"],
     ["Senior Care - Senior Citizens & Elders Support Template", $themeForestUrl + "senior-care-senior-citizens-elders-support-html5-template/19530660", "srcare_template.jpg"],
     ["Wish - Charity, Fundraising & Non-Profit Template", $themeForestUrl + "wish-charity-fundraising-nonprofit-html5-template/19295978", "wish.jpg"],
+    ["Restore - Computer, Mobile & Digital Repair Shop Template", $themeForestUrl + "restore-computer-mobile-digital-repair-shop-html5-template/19158607", "restore.jpg"],
   ]
   generateProductsList(templatesProductsData)
 })
