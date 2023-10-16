@@ -4,9 +4,10 @@ $(function () {
     let Obj = {
       "Updated:": "<b>Updated:</b>",
       "Fixed:": "<b>Fixed:</b>",
+      "Removed:": "<b>Removed:</b>",
     }
 
-    return string.replace(/Updated:|Fixed:/gi, function (matched) {
+    return string.replace(/Updated:|Fixed:|Removed:/gi, function (matched) {
       return Obj[matched]
     })
   }
@@ -14,7 +15,7 @@ $(function () {
   // Generate Dynamic Log File.
   function generateDynamicLog(data) {
     const $dynamic_log = $("#dynamic_log")
-    const commonLogText = "<b>Updated:</b> Theme translation file & documentation."
+    const commonLogText = "<b>Updated:</b> Theme compatibility with the latest WordPress, translation file & documentation."
     if ($dynamic_log.length) {
       data.forEach((element) => {
         var outputHtml = "<div>"
