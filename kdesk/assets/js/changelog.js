@@ -59,14 +59,15 @@ $(function () {
   }
 
   // Change only the version and date
-  var metaData = ["1.3.7", "19/10/2023"]
+  var metaData = ["1.3.8", "20/10/2023"]
   updateMetaInfo(metaData)
 
   // Just add a new row.
   // @sample: ["2023, July, 13 - v 1.3.6", ["Updated: BWl Knowledge Base Manager Plugin to 1.4.5", "Fixed: Translation issue of 404 page.", "Updated: Theme compatibility with the latest WordPress."]],
   var changeLogData = [
     // Add a new row below this comment.
-    ["2023, October 19 - v 1.3.7", ["Updated: WPBakery Page Builder to 7.1", "Updated: BWl Knowledge Base Manager Plugin to 1.4.8", "Updated: Ultimate Searchable Accordion - WPBakery Page Builder Addon 1.1.7", "Updated: kdesk WPBakery Page Builder Addon 1.3.6"]],
+    ["2023, October 20 - v 1.3.8", ["Fixed: Breadcrumb issue for kb tags.", "Fixed: Ultimate Searchable Accordion installation issue"]],
+    ["2023, October 19 - v 1.3.7", ["Updated: WPBakery Page Builder to 7.1", "Updated: BWl Knowledge Base Manager Plugin to 1.4.8", "Updated: Ultimate Searchable Accordion - WPBakery Page Builder Addon 1.2.3", "Updated: kdesk WPBakery Page Builder Addon 1.3.6"]],
     ["2023, July 13 - v 1.3.6", ["Updated: BWl Knowledge Base Manager Plugin to 1.4.5"]],
   ]
   generateDynamicLog(changeLogData)
