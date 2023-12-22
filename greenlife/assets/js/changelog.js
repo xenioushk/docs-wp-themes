@@ -59,12 +59,13 @@ $(function () {
   }
 
   // Change only the version and date
-  var metaData = ["1.2.7", "02/11/2023"]
+  var metaData = ["1.2.8", "21/12/2023"]
   updateMetaInfo(metaData)
 
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
+    ["2023, December 21 - v 1.2.8", ["Updated: WPBakery Page Builder to 7.3", "Updated: Wizard WPBakery Page Builder Addons to 1.2.4"]],
     ["2023, November 02 - v 1.2.7", ["Updated: WPBakery Page Builder to 7.1"]],
   ]
   generateDynamicLog(changeLogData)
