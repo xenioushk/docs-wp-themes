@@ -59,7 +59,7 @@ $(function () {
   }
 
   // Change only the version and date
-  var metaData = ["1.3.8", "07/01/2024"]
+  var metaData = ["1.3.9", "12/03/2024"]
   updateMetaInfo(metaData)
 
   // Just add a new row.
