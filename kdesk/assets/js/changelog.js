@@ -59,14 +59,14 @@ $(function () {
   }
 
   // Change only the version and date
-  var metaData = ["1.4.1", "17/04/2024"]
+  var metaData = ["1.4.1", "20/04/2024"]
   updateMetaInfo(metaData)
 
   // Just add a new row.
   // @sample: ["2023, July, 13 - v 1.3.6", ["Updated: BWl Knowledge Base Manager Plugin to 1.4.5", "Fixed: Translation issue of 404 page.", "Updated: Theme compatibility with the latest WordPress."]],
   var changeLogData = [
     // Add a new row below this comment.
-    ["2024, June 17 - v 1.4.1", ["Updated: WPBakery Page Builder to 7.7", "Updated: kdesk WPBakery Page Builder Addon 1.3.7"]],
+    ["2024, June 20 - v 1.4.1", ["Updated: WPBakery Page Builder to 7.7.2", "Updated: kdesk WPBakery Page Builder Addon 1.3.7", "Updated: BWl Knowledge Base Manager Plugin to 1.5.1", "Fixed: WooCommerce header cart icon issue.", "Fixed: WooCommerce cart checkbox alignment issue.", "Fixed: WooCommerce shop page breadcrumb issue.", "Fixed: Knowledgebase box layout breaking issue."]],
     ["2024, April 23 - v 1.4.0", ["Updated: WPBakery Page Builder to 7.6", "Updated: WooCommerce single product template."]],
     ["2024, March 12 - v 1.3.9", ["Updated: WPBakery Page Builder to 7.5", "Updated: BWl Knowledge Base Manager Plugin to 1.5.0", "Updated: Ultimate Searchable Accordion - WPBakery Page Builder Addon 1.2.7"]],
     ["2023, October 20 - v 1.3.8", ["Fixed: Breadcrumb issue for kb tags.", "Fixed: Ultimate Searchable Accordion installation issue"]],
