@@ -59,13 +59,13 @@ $(function () {
   }
 
   // Change only the version and date
-  var metaData = ["1.3.7", "17/06/2024"]
+  var metaData = ["1.3.7", "22/06/2024"]
   updateMetaInfo(metaData)
 
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
-    ["2024, June 17 - v 1.3.7", ["Updated: WPBakery Page Builder to 7.7", "Updated: Reddrop Buddies WPBakery Page Builder Addons to 1.2.2"]],
+    ["2024, June 22 - v 1.3.7", ["Updated: WPBakery Page Builder to 7.7", "Updated: Reddrop Buddies WPBakery Page Builder Addons to 1.2.3", "Fixed: WooCommerce product page duplicate h1 tags.", "Fixed: WooCommerce shop page breadcrumb issue."]],
     ["2024, April 23 - v 1.3.6", ["Updated: WPBakery Page Builder to 7.6", "Updated: WooCommerce single product template."]],
     ["2024, March 15 - v 1.3.5", ["Updated: WPBakery Page Builder to 7.5"]],
     ["2023, December 15 - v 1.3.4", ["Updated: Reddrop Buddies WPBakery Page Builder Addons to 1.2.2", "Updated: WPBakery Page Builder to 7.3", "Updated: Theme compatibility with the latest WordPress."]],
