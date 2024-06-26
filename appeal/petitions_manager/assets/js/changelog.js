@@ -4,9 +4,10 @@ $(function () {
     let Obj = {
       "Updated:": "<b>Updated:</b>",
       "Fixed:": "<b>Fixed:</b>",
+      "Added:": "<b>Added:</b>",
     }
 
-    return string.replace(/Updated:|Fixed:/gi, function (matched) {
+    return string.replace(/Updated:|Fixed:|Added:/gi, function (matched) {
       return Obj[matched]
     })
   }
@@ -14,7 +15,7 @@ $(function () {
   // Generate Dynamic Log File.
   function generateDynamicLog(data) {
     const $dynamic_log = $("#dynamic_log")
-    const commonLogText = "<b>Updated:</b> Theme compatibility with the latest WordPress, translation file & documentation."
+    const commonLogText = "<b>Updated:</b> Plugin compatibility with the latest WordPress, translation file & documentation."
     if ($dynamic_log.length) {
       data.forEach((element) => {
         var outputHtml = "<div>"
@@ -64,11 +65,8 @@ $(function () {
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
-    ["2023, September 12 - v 1.3.4", ["Updated: Senior Care Theme WP Bakery Page Builder Addons to 1.2.9", "Fixed: Translation issue of 404 page.", "Updated: Theme compatibility with the latest WordPress."]],
-    ["2023, August 21 - v 1.3.3", ["Updated: WPBakery Page Builder to 7.0", "Fixed: Translation issue of 404 page.", "Updated: Theme compatibility with the latest WordPress."]],
-    ["2023, June 18 - v 1.3.2", ["Updated: WPBakery Page Builder to 6.13.0", "Updated: WooCommerce product list page add to cart button.", "Updated: Theme compatibility with the latest WordPress."]],
-    ["2022, December 18 - v 1.3.1", ["Updated: WooCommerce Product Search Page.", "Updated: Theme compatibility with the latest WordPress."]],
-    ["2022, October 17 - v 1.3.0", ["Updated: WPBakery Page Builder to 6.10.0", "Fixed: Theme options panel menu position issue."]],
+
+    ["2020, January 17 - v 1.0.8", ["Added: Users sign verification option.", "Added: Manual sign insert option.", "Added: Customizable email template option.", "Added: Email default text filter option.", "Updated: Plugin optins panel."]],
   ]
   generateDynamicLog(changeLogData)
 })
