@@ -72,7 +72,8 @@ $(function () {
     ["2022, July 11 - v 1.1.1", ["Fixed: Plugin minor bugs."]],
     ["2022, January 07 - v 1.1.0", ["Updated: Plugin code."]],
     ["2021, March 19 - v 1.0.9", ["Updated: Plugin optins panel."]],
-    ["2020, January 21 - v 1.0.8", ["Added: Users sign verification option.", "Added: Manual sign insert option.", "Added: Customizable email template option.", "Added: Email default text filter option.", "Updated: Plugin optins panel."]],
+    ["2020, June 21 - v 1.0.8", ["Added: Users sign verification option.", "Added: Manual sign insert option.", "Added: Customizable email template option.", "Added: Email default text filter option.", "Updated: Plugin optins panel."]],
+    ["2020, January 20 - v 1.0.7", ["Added: Petition form fields customization option.", "Updated: Plugin optins panel."]],
   ]
   generateDynamicLog(changeLogData)
 })
