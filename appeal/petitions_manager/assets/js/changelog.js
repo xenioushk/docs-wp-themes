@@ -59,14 +59,14 @@ $(function () {
   }
 
   // Change only the version and date
-  var metaData = ["1.1.4", "12/09/2023"]
+  var metaData = ["1.1.4", "17/08/2024"]
   updateMetaInfo(metaData)
 
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
 
-    ["2024, July 17 - v 1.1.4", ["Added: Users sign verification option.", "Added: Manual sign insert option.", "Added: Customizable email template option.", "Added: Email default text filter option.", "Updated: Plugin optins panel."]],
+    ["2024, August 17 - v 1.1.4", ["Added: Users sign verification option.", "Added: Manual sign insert option.", "Added: Customizable email template option.", "Added: Email default text filter option.", "Updated: Plugin optins panel."]],
     ["2023, June 27 - v 1.1.3", ["Updated: Plugin code."]],
     ["2023, January 11 - v 1.1.2", ["Updated: Plugin optins panel."]],
     ["2022, July 11 - v 1.1.1", ["Fixed: Plugin minor bugs."]],
