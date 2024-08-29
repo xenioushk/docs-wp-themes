@@ -59,12 +59,13 @@ $(function () {
   }
 
   // Change only the version and date
-  var metaData = ["1.2.9", "17/12/2023"]
+  var metaData = ["1.3.0", "29/08/2024"]
   updateMetaInfo(metaData)
 
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
+    ["2023, August 29 - v 1.3.0", ["Updated: WPBakery Page Builder to 7.9", "Updated: Slider Revolution to 6.7.18", "Updated: Ultimate Addons for WPBakery Page Builder to 3.19.22"]],
     ["2023, December 17 - v 1.2.9", ["Updated: WPBakery Page Builder to 7.3", "Updated: Slider Revolution to 6.6.19", "Updated: Causes Manager 1.0.2", "Updated: Ultimate Addons for WPBakery Page Builder to 3.19.19", "Fixed: Causes Manager warning for PHP 8 Version.", "Updated: Blog layout and sidebar.", "Updated: Theme demo.xml file."]],
     ["2023, November 02 - v 1.2.8", ["Updated: WPBakery Page Builder to 7.1"]],
   ]
