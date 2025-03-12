@@ -2,12 +2,12 @@ $(function () {
   // Update the log text
   function updatesLogTag(string) {
     let Obj = {
-      "Updated:": "<b>Updated:</b>",
-      "Fixed:": "<b>Fixed:</b>",
-      "Removed:": "<b>Removed:</b>",
+      "Added:": "<b>🚀 Added:</b>",
+      "Updated:": "<b>🔥 Updated:</b>",
+      "Fixed:": "<b>✅ Fixed:</b>",
     }
 
-    return string.replace(/Updated:|Fixed:|Removed:/gi, function (matched) {
+    return string.replace(/Added:|Updated:|Fixed:/gi, function (matched) {
       return Obj[matched]
     })
   }
