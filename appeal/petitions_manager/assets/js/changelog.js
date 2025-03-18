@@ -60,13 +60,13 @@ $(function () {
   }
 
   // Change only the version and date
-  var metaData = ["1.1.6", "16/03/2025"]
+  var metaData = ["1.1.7", "18/03/2025"]
   updateMetaInfo(metaData)
 
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
-
+    ["2025, March 18 - v 1.1.7", ["Updated: bwl-plugin-api(1.0.2) composer package.", "Updated: Custom post type APIs and taxonomies.", "Updated: Custom post type taxonomy filter.", "Updated: Plugin Constants & shortcode methods."]],
     ["2025, March 16 - v 1.1.6", ["Fixed: plugin meta info options panel URL. ", "Updated: composer.json file.", "Updated: plugin activation and deactivation function.", "Updated: plugin shortcode api.", "Removed: empty description tag from the wpbakery elements.", "Updated: Plugin missing translation texts."]],
     ["2025, March 10 - v 1.1.5", ["Fixed: WPBakery petition title display issue.", "Added: Display all latest signs and add scrollbars on hover.", "Updated: Plugin meta info class.", "Updated: Petition shortcode blocks code.", "Fixed: Language file loading issue.", "Fixed: Plugin custom post type column display issue.", "Updated: Plugin report page.", "Fixed: Petition sign verification link."]],
     ["2024, August 17 - v 1.1.4", ["Added: Users sign verification option.", "Added: Manual sign insert option.", "Added: Customizable email template option.", "Added: Email default text filter option.", "Updated: Plugin optins panel."]],
