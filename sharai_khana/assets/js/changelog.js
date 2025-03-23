@@ -60,13 +60,13 @@ $(function () {
   }
 
   // Change only the version and date
-  var metaData = ["1.4.5", "10/12/2024"]
+  var metaData = ["1.4.6", "23/03/2025"]
   updateMetaInfo(metaData)
 
   // Just add a new row.
-  // @sample: ["2023, July, 13 - v 1.3.6", ["Updated: BWl Knowledge Base Manager Plugin to 1.4.5", "Fixed: Translation issue of 404 page.", "Updated: Theme compatibility with the latest WordPress."]],
   var changeLogData = [
     // Add a new row below this comment.
+    ["2025, March 23 - v 1.4.6", ["Updated: WPBakery Page Builder to 8.3.1"],
     ["2024, December 10 - v 1.4.5", ["Fixed: Translation notice for WP 6.7.1", "Updated: WPBakery Page Builder to 8.0.1", "Updated: Sharai Khana Theme WP Bakery Page Builder Addons to 1.3.4"]],
     ["2024, November 19 - v 1.4.4", ["Updated: WPBakery Page Builder to 8.0"]],
     ["2024, August 29 - v 1.4.3", ["Updated: WPBakery Page Builder to 7.9"]],
