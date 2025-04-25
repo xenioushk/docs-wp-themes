@@ -16,7 +16,7 @@ $(function () {
   // Generate Dynamic Log File.
   function generateDynamicLog(data) {
     const $dynamic_log = $("#dynamic_log")
-    const commonLogText = "<b>🔥 Updated:</b> Theme compatibility with the latest WordPress version, includes translation files and documentation."
+    const commonLogText = "<b>🔥 Updated:</b> Compatible with the latest WordPress version, includes translations and docs."
     if ($dynamic_log.length) {
       data.forEach((element) => {
         var outputHtml = "<div>"
