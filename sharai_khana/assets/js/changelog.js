@@ -60,14 +60,15 @@ $(function () {
   }
 
   // Change only the version and date
-  var metaData = ["1.4.9", "17/06/2025"]
+  var metaData = ["1.5.0", "22/06/2025"]
   updateMetaInfo(metaData)
 
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
-    ["2025, July 17 - v 1.4.9", ["Added: Cobbler Master template.", "Fixed: Duplicate H1 tag issue.", "Fixed: Icon issues for highlights, process, counter blocks.", "Updated: Sharai Khana Theme WP Bakery Page Builder Addons to 1.3.8"]],
-    ["2025, July 10 - v 1.4.8", ["Fixed: Mobile menu display issue", "Updated: Sharai Khana Theme WP Bakery Page Builder Addons to 1.3.6"]],
+    ["2025, June 22 - v 1.5.0", ["Updated: WPBakery Page Builder to 8.5", "Updated: Sharai Khana Theme WP Bakery Page Builder Addons to 1.3.9"]],
+    ["2025, June 17 - v 1.4.9", ["Added: Cobbler Master template.", "Fixed: Duplicate H1 tag issue.", "Fixed: Icon issues for highlights, process, counter blocks.", "Updated: Sharai Khana Theme WP Bakery Page Builder Addons to 1.3.8"]],
+    ["2025, June 10 - v 1.4.8", ["Fixed: Mobile menu display issue", "Updated: Sharai Khana Theme WP Bakery Page Builder Addons to 1.3.6"]],
     ["2025, April 24 - v 1.4.7", ["Updated: WPBakery Page Builder to 8.4.1", "Fixed: Translation notice for WP 6.8"]],
     ["2025, March 23 - v 1.4.6", ["Updated: WPBakery Page Builder to 8.3.1", "Updated: WooCommerce product review template."]],
     ["2024, December 10 - v 1.4.5", ["Fixed: Translation notice for WP 6.7.1", "Updated: WPBakery Page Builder to 8.0.1", "Updated: Sharai Khana Theme WP Bakery Page Builder Addons to 1.3.4"]],
