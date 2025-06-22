@@ -1,6 +1,6 @@
 $(function () {
   // Update the log text
-  unction updatesLogTag(string) {
+  function updatesLogTag(string) {
     let Obj = {
       "Added:": "<b>🚀 Added:</b>",
       "Updated:": "<b>🔥 Updated:</b>",
@@ -60,12 +60,13 @@ $(function () {
   }
 
   // Change only the version and date
-  var metaData = ["1.3.1", "05/01/2025"]
+  var metaData = ["1.3.2", "22/06/2025"]
   updateMetaInfo(metaData)
 
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
+    ["2025, June 22 - v 1.3.2", ["Updated: WPBakery Page Builder to 8.5", "Updated: Slider Revolution to 6.7.34", "Updated: Ultimate Addons for WPBakery Page Builder to 3.19.25"]],
     ["2025, January 05 - v 1.3.1", ["Updated: WPBakery Page Builder to 8.1", "Updated: Slider Revolution to 6.7.25", "Updated: Ultimate Addons for WPBakery Page Builder to 3.19.25"]],
     ["2024, August 29 - v 1.3.0", ["Updated: WPBakery Page Builder to 7.9", "Updated: Slider Revolution to 6.7.18", "Updated: Ultimate Addons for WPBakery Page Builder to 3.19.22"]],
     ["2023, December 17 - v 1.2.9", ["Updated: WPBakery Page Builder to 7.3", "Updated: Slider Revolution to 6.6.19", "Updated: Causes Manager 1.0.2", "Updated: Ultimate Addons for WPBakery Page Builder to 3.19.19", "Fixed: Causes Manager warning for PHP 8 Version.", "Updated: Blog layout and sidebar.", "Updated: Theme demo.xml file."]],
