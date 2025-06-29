@@ -60,16 +60,17 @@ $(function () {
   }
 
   // Change only the version and date
-  var metaData = ["1.3.1", "05/01/2025"]
+  var metaData = ["1.3.2", "30/06/2025"]
   updateMetaInfo(metaData)
 
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
-    ["2025, January 05 - v 1.3.1", ["Updated: WPBakery Page Builder to 8.1", "Updated: Wizard WPBakery Page Builder Addons to 1.2.5"]],
+    ["2025, June 30 - v 1.3.2", ["Updated: WPBakery Page Builder to 8.5", "Updated: Greenlife Theme WPBakery Page Builder Addon to 1.2.6", "Updated: WooCommerce template files."]],
+    ["2025, January 05 - v 1.3.1", ["Updated: WPBakery Page Builder to 8.1", "Updated: Greenlife Theme WPBakery Page Builder Addon to 1.2.5"]],
     ["2024, August 28 - v 1.3.0", ["Updated: WPBakery Page Builder to 7.9", "Updated: WooCommerce template files."]],
     ["2024, March 15 - v 1.2.9", ["Updated: WPBakery Page Builder to 7.5"]],
-    ["2023, December 21 - v 1.2.8", ["Updated: WPBakery Page Builder to 7.3", "Updated: Wizard WPBakery Page Builder Addons to 1.2.4"]],
+    ["2023, December 21 - v 1.2.8", ["Updated: WPBakery Page Builder to 7.3", "Updated: Greenlife Theme WPBakery Page Builder Addon to 1.2.4"]],
     ["2023, November 02 - v 1.2.7", ["Updated: WPBakery Page Builder to 7.1"]],
   ]
   generateDynamicLog(changeLogData)
