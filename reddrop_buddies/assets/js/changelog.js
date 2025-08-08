@@ -60,12 +60,13 @@ $(function () {
   }
 
   // Change only the version and date
-  var metaData = ["1.4.1", "25/06/2025"]
+  var metaData = ["1.4.2", "08/08/2025"]
   updateMetaInfo(metaData)
 
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
+    ["2025, August 08 - v 1.4.2", ["Updated: WPBakery Page Builder to 8.6.1"]],
     ["2025, June 25 - v 1.4.1", ["Updated: WPBakery Page Builder to 8.5", "Updated: Reddrop Buddies WPBakery Page Builder Addons to 1.2.6"]],
     ["2025, April 25 - v 1.4.0", ["Updated: WPBakery Page Builder to 8.4.1", "Fixed: Translation notice for WP 6.8"]],
     ["2024, December 07 - v 1.3.9", ["Fixed: Translation notice for WP 6.7.1", "Updated: WPBakery Page Builder to 8.0.1", "Updated: Reddrop Buddies WPBakery Page Builder Addons to 1.2.4", "Fixed: Causes carousel display issue."]],
