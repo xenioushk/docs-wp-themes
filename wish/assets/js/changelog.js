@@ -66,7 +66,6 @@ $(function () {
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
-
     ["2025, August 10 - v 1.2.9", ["Updated: WPBakery Page Builder to 8.6.1"]],
     ["2025, June 30 - v 1.2.8", ["Updated: WPBakery Page Builder to 8.5", "Updated: Wish Theme WPBakery Page Builder Addon to 1.1.9", "Updated: WooCommerce template files."]],
     ["2025, January 05 - v 1.2.7", ["Updated: WPBakery Page Builder to 8.1", "Updated: Wish WPBakery Page Builder Addons to 1.1.8"]],
