@@ -66,6 +66,7 @@ $(function () {
   // Just add a new row.
   var changeLogData = [
     // Add a new row below this comment.
+    ["2026, January 29 - v 1.5.0", ["Updated: WPBakery Page Builder to 8.7.2"]],
     ["2025, August 07 - v 1.4.9", ["Updated: WPBakery Page Builder to 8.6.1"]],
     ["2025, June 25 - v 1.4.8", ["Updated: WPBakery Page Builder to 8.5", "Updated: Senior Care Theme WP Bakery Page Builder Addons to 1.3.6"]],
     ["2025, May 12 - v 1.4.7", ["Fixed: Font-awesome missing icon issue."]],
